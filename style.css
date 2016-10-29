@@ -1,0 +1,51 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: "Segoe UI";
+}
+
+.header{
+    padding: 9px 15px;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#min, #max{
+    padding: 9px 15px;
+    outline: none;
+    background: rgb(240, 240, 240);
+    font-size: 14px;
+    margin: 0;
+    width: 49%;
+    display: inline-block;
+    border: none;
+}
+
+.result{
+    text-align: center;
+    font-size: 64px;
+    padding: 30%;
+    
+}
+
+.go{
+    background: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 18px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.config{
+    background: rgb(240, 240, 240);
+    color: balck;
+    text-align: center;
+    padding: 12px 15px;
+    font-size: 12px;
+    text-transform: uppercase;
+    cursor: pointer;
+    display: none;
+}
