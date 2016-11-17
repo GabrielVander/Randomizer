@@ -4,21 +4,44 @@
     <link rel="stylesheet" href="style.css" />
     <script src="script.js"></script>
     </head>
-<b0dy>
-    <div class="header">
-        Randomizer
+<body>
+    <div class="tab" id="tRand">
+        <div class="header">
+            Randomizer
+        </div>
+        <div class="result" id="result">?
+        </div>
+        <Div class="label">
+            <input type="number" id="min" placeholder="Mínimo"/>
+            <input type="number" id="max" placeholder="Máximo"/>
+        </Div>
     </div>
-    <Div class="label">
-        <input type="number" id="min" placeholder="Mínimo"/>
-        <input type="number" id="max" placeholder="Máximo"/>
-    </Div>
-    <div class="result" id="result">-
+    <div class="tab" id="tConf">
+        <div class="header">
+            Configurações
+        </div>
+        <div class="content">
+            <div class="label">Rolls</div>
+            <div class="data"><input class="confPut" type="number" id="rolls" /></div>
+            <div class="label">Time Per Roll</div>
+            <div class="data"><input class="confPut" type="number" id="timePerRoll" /></div>
+            <div class="label">Forced Roll (F.R) (0 ou 1)</div>
+            <div class="data"><input class="confPut" type="number" min='0' max='1' id="forcedRoll" /></div>
+            <div class="label">Número F.R</div>
+            <div class="data"><input class="confPut" type="number" id="forcedRollNum" /></div>
+            <div class="label">Contador F.R (C.F.R) (0 ou 1)</div>
+            <div class="data"><input class="confPut" type="number" min='0' max='1' id="forcedRollDisable" /></div>
+            <div class="label">Rodadas do C.F.R</div>
+            <div class="data"><input class="confPut" type="number" id="forcedRollTimes" /></div>
+        </div>
     </div>
-    <div class="go" onclick="roll()">
+    <div class='bar'>
+        <div class="button go" onclick="sort()">
         Sortear
+        </div>
+        <div class="button config" onclick="config()">
+        Configurações
+        </div>
     </div>
-    <div class="config">
-        Configurações avançadas
-    </div>
-    </b0dy>
+    </body>
 </html>
