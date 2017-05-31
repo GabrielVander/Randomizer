@@ -22,9 +22,9 @@ body{
     margin: 0;
     width: 29%;
     display: inline-block;
-    font-size: 29px;
+    font-size: 58px;
     border: none;
-    border-bottom: 2px solid rgb(230, 230, 230);
+    border-bottom: 2px solid rgb(100, 100, 100);
     margin: 5% 10%;
     font-weight: lighter;
     font-family: "Segoe UI";
@@ -32,8 +32,8 @@ body{
 
 .result{
     text-align: center;
-    font-size: 84px;
-    padding: 25% 0;
+    font-size: 184px;
+    padding: 1% 0;
     font-family: "Segoe UI";
 }
 
@@ -83,7 +83,7 @@ body{
 .label{
     font-size: 12px;
     font-weight: bold;
-    color: rgb(200, 200, 200);
+    color: rgb(0,0,0);
     padding: 5px 15px;
     margin-top: 9px;
     text-transform: uppercase;
@@ -97,7 +97,7 @@ body{
     border: none;
     width: 100%;
     margin: 0 15px;
-    border-bottom: 2px solid rgb(240, 240, 240);
+    border-bottom: 2px solid rgb(100, 100, 100);
 }
 
 .content{
