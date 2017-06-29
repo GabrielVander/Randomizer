@@ -8,71 +8,72 @@ body{
 .header{
     text-align: center;
     padding: 9px 15px;
-    font-size: 14px;
+    font-size: 23px;
     font-weight: bold;
     text-transform: uppercase;
 }
 
 #min, #max{
-    padding: 13px 3px;
+    padding: 0px 3px;
     outline: none;
     background: white;
     text-align: center;
     font-size: 28px;
     margin: 0;
-    width: 29%;
+    width: 20%;
     display: inline-block;
-    font-size: 58px;
+    font-size: 88px;
     border: none;
     border-bottom: 2px solid rgb(100, 100, 100);
-    margin: 5% 10%;
+    margin: 0px 10%;
     font-weight: lighter;
     font-family: "Segoe UI";
 }
 
 .result{
     text-align: center;
-    font-size: 184px;
-    padding: 1% 0;
+    font-size: 162px;
+    padding: 8% 0;
     font-family: "Segoe UI";
 }
 
 .button{
-    text-align: center;
-    padding: 9px 15px;
-    font-size: 18px;
-    text-transform: uppercase;
-    cursor: pointer;
-    font-weight: 100;
-    display: inline-block;
-    width: 50%;
-    height: 100%;
-    position: fixed;
-    top: 85%;
 }
 
 .go {
     background: rgb(0, 100, 250);
     color: white;
+    padding: 5px 100px;
+    border-radius: 100000px;
+    font-size: 31px;
+    margin-top: -37px;
     left: 0;
+    display: inline-block;
 }
 
 .config {
-    background: rgb(100, 100, 100);
+    background: #C62828;
+    border-radius: 30px;
+    margin-left: 26%;
+    font-weight: 100;
     color: white;
-    left: 50%;
+    display: inline-block;
+    top: 0;
+    padding: 4px 20px;
 }
 
 .tab{
-    position: fixed;
     transition: all 1s;
+    position: fixed;
     top: 0;
+    text-align: center;
     width: 100%;
-    height: 100%:
+    height: 100%;
 }
 
 #tConf{
     text-align: center;
+    overflow: auto;
     left: 100%;
 }
 
@@ -81,27 +82,67 @@ body{
 }
 
 .label{
-    font-size: 12px;
+    font-size: 20px;
     font-weight: bold;
     color: rgb(0,0,0);
-    padding: 5px 15px;
-    margin-top: 9px;
+    padding: 0px 15px;
     text-transform: uppercase;
 }
 
 .data input{
     padding: 5px 5px;
     font-weight: lighter;
+    font-size: 29px;
     font-family: "Segoe UI";
     outline: none;
     border: none;
     width: 100%;
     margin: 0 15px;
-    border-bottom: 2px solid rgb(100, 100, 100);
+    background: #FFCDD2;
+    border-bottom: 2px solid #E57373;
+    border-radius: 0;
 }
 
 .content{
     display: inline-block;
     text-align: justify;
     width: 50%;
+}
+
+.header,.result {background: #F44336;color: white;}
+
+.title {
+    display: inline-block;
+}
+
+.header.conf {
+    background: white;
+    color: black;
+}
+
+.data {
+    margin-bottom: 24px;
+}
+
+.dataLabel {
+    display: inline-block;
+    margin-top: 21px;
+    padding: 15px;
+    text-align: justify;
+}
+
+.dtitle {
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.ddesc {
+    font-size: 22px;
+}
+
+div#tConf::-webkit-scrollbar {background: #FFCDD2;width: 8px;}
+
+div#tConf::-webkit-scrollbar-thumb {
+    background: #EF5350;
 }
