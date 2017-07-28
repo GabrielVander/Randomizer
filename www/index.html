@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+<html><head>
+    <title>Randomizer</title>
+    <meta charset="utf-8"/>	
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="shortcut icon" sizes="16x16 24x24 32x32 48x48 64x64" href="res/favicon.png">
+    <script src="js/storage.min.js"></script>
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <div class="tab" id="tRand" style="left: 0%;">
+        <div class="header">
+            <div class="title">Randomizer</div>
+	    <div class="config" onclick="config()">
+        	Configurações
+            </div>
+        </div>
+        <div class="result" id="result">?</div>
+	<div class="button go" onclick="sort()">
+        Sortear
+        </div>
+    </div>
+    <div class="tab" id="tConf" style="left: 100%;">
+        <div class="header conf">
+          <div class="title">Configurações</div>
+          <div class="config" onclick="sort()">
+        Voltar
+        </div>
+
+        <div class="content">  
+  <div class="dataLabel">
+  <div class="dtitle">Os Números</div>
+  <div class="ddesc">Escolha o intervalo em que seu número estará</div>
+</div>      
+            <div class="label">Mínimo</div>
+            <div class="data"><input class="confPut" value="0" type="number" id="min"></div>
+            <div class="label">Máximo</div>
+            <div class="data"><input class="confPut" value="6" type="number" id="max"></div>
+  <div class="dataLabel">
+  <div class="dtitle">Animação</div>
+  <div class="ddesc">Quantidade de números e a velocidade da animação.</div>
+</div>      
+            <div class="label">Rolls</div>
+            <div class="data"><input class="confPut" type="number" min="1" id="rolls"></div>
+            <div class="label">Time Per Roll</div>
+            <div class="data"><input class="confPut" type="number" min="0" id="timePerRoll"></div>
+  <div class="dataLabel">
+  <div class="dtitle">O Mecanismo de Rodada Forçada</div>
+  <div class="ddesc">Permite a alteração dos resultados finais de cada rodada de sorteios</div>
+</div>          
+  
+  <div class="label">Forced Roll (F.R) (0 ou 1)</div>
+            <div class="data"><input class="confPut" type="number" min="0" max="1" id="forcedRoll"></div>
+            <div class="label">Número F.R</div>
+            <div class="data"><input class="confPut" type="number" min="0" id="forcedRollNum"></div>
+            <div class="label">Contador F.R (C.F.R) (0 ou 1)</div>
+            <div class="data"><input class="confPut" type="number" min="0" max="1" id="forcedRollDisable"></div>
+            <div class="label">Rodadas do C.F.R</div>
+            <div class="data"><input class="confPut" type="number" min="0" id="forcedRollTimes"></div>
+        </div>
+    </div>        
+</div>
+</body></html>
