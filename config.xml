@@ -10,11 +10,11 @@
   <name>Randomizer</name>
 
   <description>
-     Get random numbers with the possibility to manipulate the result.  </description>
+     Get random numbers with the possibility to manipulate the result.  
+  </description>
 
   <author href="https://gabrielvanderlei.github.com" email="gabrielvanderlei10@hotmail.com">
      Gabriel Vanderlei
   </author>
 
-   <preference name="windows-identity-name" value="GabrielVanderlei.Randomizer" />
 </widget>
