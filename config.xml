@@ -1,7 +1,7 @@
 ﻿﻿<?xml version="1.0" encoding="UTF-8" ?>
 <widget xmlns   = "http://www.w3.org/ns/widgets"
     xmlns:gap   = "http://phonegap.com/ns/1.0"
-    id          = "com.gabrielvanderlei.fallfall"
+    id          = "com.gabrielvanderlei.randomizer"
     versionCode = "10"
     version     = "1.0.0" >
 
@@ -16,5 +16,5 @@
      Gabriel Vanderlei
   </author>
 
-   <icon src="res/favicon.png" />  <preference name="windows-identity-name" value="GabrielVanderlei.Randomizer" />
+   <preference name="windows-identity-name" value="GabrielVanderlei.Randomizer" />
 </widget>
