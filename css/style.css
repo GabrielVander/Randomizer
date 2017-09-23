@@ -156,7 +156,7 @@ div#tConf::-webkit-scrollbar-thumb {
     padding: 7px 0;
     font-size: 23px;
     font-weight: bold;
-    background: #0C0C15!important;
+    background: #0C0C15;
     text-transform: uppercase;
 }
 
@@ -174,9 +174,21 @@ div#tConf::-webkit-scrollbar-thumb {
     border-radius: 100000px;
     font-size: 32px;
     display: inline-block;
-    posiition: initial;
+    position: initial;
+    margin: 0;
 }
     
+.config {
+    background: #C62828;
+    border-radius: 30px;
+    margin-left: 4%;
+    font-weight: 100;
+    color: white;
+    display: inline-block;
+    top: 0;
+    padding: 0 20px;
+}
+
 .result {
     text-align: center;
     font-size: 175px;
