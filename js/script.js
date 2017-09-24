@@ -94,6 +94,8 @@ function load(){
     document.getElementById("tConf").style.left = "100%";
 }
 
-window.onload = function(){
+window.onload = function () {
     load();
+    if (document.getElementById("min").value == "") { document.getElementById("min").value = 0; }
+    if (document.getElementById("max").value == "") { document.getElementById("max").value = 10; }
 }

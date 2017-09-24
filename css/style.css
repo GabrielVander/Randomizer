@@ -4,6 +4,7 @@ body{
     font-family: "Roboto";
     color: white;
     font-weight: lighter;
+    user-select: none;
 }
 
 *{
@@ -40,6 +41,7 @@ body{
     font-size: 48px;
     display: inline-block;
     text-align: center;
+    cursor: pointer;
 }
 
 .config {
@@ -51,6 +53,7 @@ body{
     display: inline-block;
     top: 0;
     padding: 4px 20px;
+    cursor: pointer;
 }
 
 .tab{
@@ -97,7 +100,7 @@ body{
 .content{
     display: inline-block;
     text-align: justify;
-    width: 57%;
+    width: 70%;
     color: black;
 }
 
@@ -112,9 +115,11 @@ body{
 
 .cheat{
     background: rgb(240, 240, 240);
-    border-top: 2px dashed rgb(220, 220, 220);
+    border: 2px dashed rgb(220, 220, 220);
+    border-bottom: 4px dashed rgb(220, 220, 220);
     padding: 0px 86px 15px 50px;
-    margin: 70px -50px 0 -20px;
+    margin: 70px -50px 70px -20px;
+    border-radius: 5px;
 }
 
 .header, .result {background: #16172A;font-weight: bold;color: white;}
