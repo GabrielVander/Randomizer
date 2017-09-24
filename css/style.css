@@ -149,7 +149,7 @@ div#tConf::-webkit-scrollbar-thumb {
     color: black;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 480px) {
 
 .header{
     text-align: center;
@@ -195,6 +195,57 @@ div#tConf::-webkit-scrollbar-thumb {
 .result {
     text-align: center;
     font-size: 175px;
-    padding: 7% 0;
+    padding: 9% 0;
+}
+}
+
+
+@media (max-width: 700px) {
+
+.header{
+    text-align: center;
+    padding: 7px 0;
+    font-size: 23px;
+    font-weight: bold;
+    background: #0C0C15;
+    text-transform: uppercase;
+}
+
+
+.content{
+    display: inline-block;
+    text-align: justify;
+    margin: 0 15% 0 7%;
+    width: 71%;
+}
+
+.go {
+    cursor: pointer;
+    background: #F44336;
+    color: white;
+    padding: 0px 43px;
+    border-radius: 100000px;
+    font-size: 32px;
+    display: inline-block;
+    position: initial;
+    margin: 0;
+}
+    
+.config {
+    background: #C62828;
+    border-radius: 30px;
+    margin-left: 4%;
+    cursor: pointer;
+    font-weight: 100;
+    color: white;
+    display: inline-block;
+    top: 0;
+    padding: 0 20px;
+}
+
+.result {
+    text-align: center;
+    font-size: 95px;
+    padding: 3% 0;
 }
 }
