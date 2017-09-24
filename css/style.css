@@ -149,7 +149,7 @@ div#tConf::-webkit-scrollbar-thumb {
     color: black;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 700px) {
 
 .header{
     text-align: center;
@@ -165,9 +165,11 @@ div#tConf::-webkit-scrollbar-thumb {
     display: inline-block;
     text-align: justify;
     margin: 0 15% 0 7%;
+    width: 71%;
 }
 
 .go {
+    cursor: pointer;
     background: #F44336;
     color: white;
     padding: 0px 43px;
@@ -182,6 +184,7 @@ div#tConf::-webkit-scrollbar-thumb {
     background: #C62828;
     border-radius: 30px;
     margin-left: 4%;
+    cursor: pointer;
     font-weight: 100;
     color: white;
     display: inline-block;
@@ -192,6 +195,6 @@ div#tConf::-webkit-scrollbar-thumb {
 .result {
     text-align: center;
     font-size: 175px;
-    padding: 9% 0;
+    padding: 7% 0;
 }
 }
