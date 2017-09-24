@@ -4,7 +4,7 @@
     <meta charset="utf-8"/>	
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css"/>
-    <link rel="shortcut icon" sizes="16x16 24x24 32x32 48x48 64x64" href="res/favicon.png">
+    <link rel="shortcut icon" sizes="16x16 24x24 32x32 48x48 64x64" href="res/favicon.jpg">
     <script src="js/storage.min.js"></script>
     <script src="js/script.js"></script>
 </head>
@@ -27,7 +27,8 @@
           <div class="config" onclick="sort()">
         Voltar
         </div>
-
+        </div>
+        <div class="banner"></div>
         <div class="content">  
   <div class="dataLabel">
   <div class="dtitle">Os Números</div>
@@ -45,20 +46,22 @@
             <div class="data"><input class="confPut" type="number" min="1" id="rolls"></div>
             <div class="label">Time Per Roll</div>
             <div class="data"><input class="confPut" type="number" min="0" id="timePerRoll"></div>
-  <div class="dataLabel">
-  <div class="dtitle">O Mecanismo de Rodada Forçada</div>
+  <div class="cheat">
+            <div class="dataLabel">
+  <div class="dtitle">Trapaça</div>
   <div class="ddesc">Permite a alteração dos resultados finais de cada rodada de sorteios</div>
 </div>          
   
-  <div class="label">Forced Roll (F.R) (0 ou 1)</div>
-            <div class="data"><input class="confPut" type="number" min="0" max="1" id="forcedRoll"></div>
-            <div class="label">Número F.R</div>
+            <div class="label">Ativar Trapaça</div>
+            <div class="data"><input class="confPut range" type="range" min="0" max="1" id="forcedRoll"></div>
+            <div class="label">Número Final</div>
             <div class="data"><input class="confPut" type="number" min="0" id="forcedRollNum"></div>
-            <div class="label">Contador F.R (C.F.R) (0 ou 1)</div>
-            <div class="data"><input class="confPut" type="number" min="0" max="1" id="forcedRollDisable"></div>
-            <div class="label">Rodadas do C.F.R</div>
+            <div class="label">Desativar na próxima rodada</div>
+            <div class="data"><input class="confPut range" type="range" min="0" max="1" id="forcedRollDisable"></div>
+            <div class="label">Adiar a desativação em x rodadas</div>
             <div class="data"><input class="confPut" type="number" min="0" id="forcedRollTimes"></div>
         </div>
-    </div>        
+    </div> 
+    </div>       
 </div>
 </body></html>
