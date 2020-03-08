@@ -3,8 +3,6 @@ Gerador de números aleatórios
 
 ## Funções
 - Sistema interno programável;
-- Belo design;
-- Fácil uso
 
 ## Sistema interno
 - Sistema de geração de números aleatórios, padrão para esse tipo de aplicativo.
